@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "node index.js",
-    "postinstall": "node your_startapp_file.js",
+    "postinstall": "index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "name": "nodejs",
