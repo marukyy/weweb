@@ -1,18 +1,19 @@
 {
+  "scripts": {
+    "start": "node index.js",
+    "postinstall": "node your_startapp_file.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "name": "nodejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^18.0.6",
     "@whiskeysockets/baileys": "^6.5.0",
-    "index.js": "0.0.3",
     "node-fetch": "^3.2.6",
     "qrcode-terminal": "^0.12.0"
   }
